@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    /* #98ff98 = (120, 100%, 80%)*/
+    background-color:	hsl(120, 100%, 90%);
+}
+
+.weirdHeader {
+    font-size: 8vw;
+    text-align: center;
+    margin-top: 0.2em;/*1rem;*/
+    font-weight: 900;
+    line-height: 0.9em;/*0.7em;*/
+}
+
+
+#link_countainer {
+    margin-top: 0.5em;
+    list-style-position:inside;
+    font-size: 8vw;
+}
+
+#link_countainer > li > a {
+    margin-left: -0.5em;
+}
